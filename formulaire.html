@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1>Le FORMUALIRE</h1>
+    <form>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" value="Undersome">
+        <br><br>
+        <label for="postnom">Post Nom :</label>
+        <input type="text" id="postnom" placeholder="Entrer votre post nom" required>
+        <br><br>
+        <label for="prenom">Prenom :</label>
+        <input type="text" id="prenom">
+        <br><br>
+        <label for="mail">E-mail :</label>
+        <input type="email" id="mail">
+        <br><br>
+        <label for="tel">Telephone :</label>
+        <input type="tel" id="tel">
+        <br><br>
+        <label>Age :</label>
+        <input type="number">
+        <br><br>
+        <label>Date Naissance :</label>
+        <input type="date"><br><br>
+        <label>Heure : </label>
+        <input type="time">
+        <br><br>
+        <label>Profile :</label>
+        <input type="file"><br><br>
+        <label>Mot de passe :</label>
+        <input type="password">
+        <br><br>
+        <label>
+            <input type="radio" name="sexe" value="M">Masculin
+        </label><br>
+        <label>
+            <input type="radio" name="sexe" value="F" checked>Feminin
+        </label>
+        <br><br>
+        <label>
+            <input type="checkbox" name="langages" value="HTML" checked> HTML
+        </label>
+        <label>
+            <input type="checkbox" name="langages" value="CSS"> CSS
+        </label>
+        <label>
+            <input type="checkbox" name="langages" value="JAVASCRIPT"> JAVASCRIPT
+        </label>
+        <label>
+            <input type="checkbox" name="langages" value="PYTHON" checked> PYTHON
+        </label>
+        <label>
+            <input type="checkbox" name="langages" value="PHP" checked> PHP
+        </label>
+        <br><br>
+        <label for="message">Message :</label><br>
+        <textarea id="message" rows="4" cols="35" placeholder="Entrer ici votre message"></textarea>
+        <br><br>
+        <label>Natioanlite :</label>
+        <!-- <select multiple> -->
+        <select disabled>
+            <option value="Congolaise">Congolaise</option>
+            <option value="Rwandaise">Rwandaise</option>
+            <option value="burundais">Burundais</option>
+            <option value="Tanzanien" selected>Tanzanien</option>
+            <option value="Camerounais">Camerounais</option>
+            <option value="Japonais">Japonais</option>
+        </select>
+        <br><br>
+        <label>Ville d'origine : </label>
+        <select>
+            <optgroup label="Nord-Kivu">
+                <option>Goma</option>
+                <option>Beni</option>
+                <option>Butembo</option>
+            </optgroup>
+            <optgroup label="Sud-Kivu">
+                <option>Bukavu</option>
+                <option>Uvira</option>
+                <option>Kalemie</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <input type="submit" value="SOUMETTRE">
+        <button type="submit">ENVOYER</button>
+        <button type="reset">REINITIALISER</button>
+        <button type="button" disabled>RIEN FAIRE</button>
+    </form>
+</body>
+</html>
