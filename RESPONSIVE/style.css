@@ -1,0 +1,45 @@
+img {
+    width: 100%;
+    height: auto;
+}
+
+.services{
+    display: flex;
+}
+
+.services-grid{
+    display: grid;
+}
+
+/* .card{
+    width: 100%;
+}
+p{
+    font-size: 20px;
+}
+
+@media (max-width: 840px){
+    img{
+        width: 100%;
+    }
+    h1{
+        color: red;
+    }
+    /* body{
+        background-color: beige;
+    } */
+
+@media (max-width:925px){
+   .services{
+    flex-direction: column;
+   }
+
+   .services-grid{
+    grid-template-columns: repeat(4.1fr);
+   }
+
+   /* pour adapter le grid au telephone */
+   .services-grid{
+    grid-template-columns: repeat(1fr);
+   }
+}
