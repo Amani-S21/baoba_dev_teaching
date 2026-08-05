@@ -5,16 +5,22 @@
 /* ceci c'est le style pour le h1*/
 /* mon autre commentaire */
 
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap'); */
 
+@font-face{
+  font-family: 'ma police telech' ;
+  src: url("FONTS/LobsterTwo-Bold.ttf");
+}
 body{
   /* font-family: "Archivo Black", sans-serif; */
-  font-family: "Archivo Black", sans-serif;
+  /* font-family: "Archivo Black", sans-serif; */
+  font-family: 'ma police telech';
 }
 
-p{
-  color: red;
+.parag1{
+  color: rgb(98, 0, 255);
   font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1{
@@ -22,4 +28,15 @@ h1{
   background-color: aqua;
   font-size: 50px;
   text-align: center;
+}
+
+/* *{
+  margin : 0;
+  padding : 0
+}*/
+
+.parag2{
+  color: red;
+  font-size: 40px;
+  font-family: "Archivo Black", sans-serif;
 }
