@@ -17,11 +17,11 @@ body{
   font-family: 'ma police telech';
 }
 
-.parag1{
+/* .parag1{
   color: rgb(98, 0, 255);
   font-size: 30px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+} */
 
 h1{
   color:blue;
@@ -35,8 +35,14 @@ h1{
   padding : 0
 }*/
 
-.parag2{
+/* .parag2{
   color: red;
   font-size: 40px;
   font-family: "Archivo Black", sans-serif;
-}
+} */
+
+/* #par3{
+  color: red;
+  font-size: 40px;
+  font-family: "Archivo Black", sans-serif;
+} */
