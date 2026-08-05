@@ -1,5 +1,25 @@
-h1 {
-  color: blue;
-  background-color: bisque;
-  font-size: 70px;
+/* selecteur{
+  propriete:valeur
+} */
+
+/* ceci c'est le style pour le h1*/
+/* mon autre commentaire */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+  /* font-family: "Archivo Black", sans-serif; */
+  font-family: "Archivo Black", sans-serif;
+}
+
+p{
+  color: red;
+  font-size: 30px;
+}
+
+h1{
+  color:blue;
+  background-color: aqua;
+  font-size: 50px;
+  text-align: center;
 }
