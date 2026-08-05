@@ -46,7 +46,12 @@ body{
   font-size: 40px;
   font-family: "Archivo Black", sans-serif;
 } */
-
+/* 
 h1, p, h2{
   color: red;
+} */
+
+div p {
+  color: blue;
+  font-size: 40px;
 }
