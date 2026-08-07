@@ -51,7 +51,27 @@ h1, p, h2{
   color: red;
 } */
 
-div p {
-  color: blue;
-  font-size: 40px;
+/* div p {
+  color: rgb(255, 130 , 200);
+  font-size: 100px;
+  background-color: blanchedalmond;
+}
+
+body{
+  background-image: url(./images.jpg);
+  background-repeat: repeat-y;
+  background-repeat: repeat-x;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+html{
+  font-size: 16px;
+}
+div{
+  font-size: 120px;
+}
+P{
+  /* font-size : 2rem; */
+  font-size: 10vh;
 }
